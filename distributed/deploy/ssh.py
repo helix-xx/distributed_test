@@ -216,7 +216,7 @@ class Scheduler(Process):
         remote_python: str | None = None,
     ):
         super().__init__()
-
+        print("from fork package")
         self.address = address
         self.kwargs = kwargs
         self.connect_options = connect_options
