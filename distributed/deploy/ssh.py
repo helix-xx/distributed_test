@@ -217,6 +217,7 @@ class Scheduler(Process):
     ):
         super().__init__()
         print("from fork package")
+        print("after install")
         self.address = address
         self.kwargs = kwargs
         self.connect_options = connect_options
